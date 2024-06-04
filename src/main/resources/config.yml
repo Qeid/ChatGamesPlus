@@ -1,0 +1,35 @@
+options:
+  mathMin: 30
+  mathMax: 250
+  reward: "$150,000"
+  reward-command: "eco give %player% 150000"
+
+messages:
+  chat-game-title: "&lCHAT GAME!"
+  player-answer: "&f%player% &fsaid <##e8de6f>%message% &fin <##e8de6f>%time% seconds!"
+  reward-message: "&fReward: <##e8de6f>%reward%"
+  chat-game-no-answer: "&cNo one answered in time. The reaction has ended."
+  math-question: "&fFirst to answer %num1% + %num2%"
+  scramble-question: "&fUnscramble the following word: %word%"
+  fastest-question: "&fFirst one to type: %word%"
+  usage-message: "&cUsage: /reaction <start|stop|add|remove|list|reload>"
+  reaction-ended: "&aYou have ended the chat reaction."
+  no-reaction-active: "&cThere is no reaction currently active"
+  reaction-already-active: "&cReaction already active"
+  specify-reaction: "&cSpecify the type of reaction to start."
+  reaction-empty: "&cThere are no reaction words"
+  word-added: "&aAdded word to reactions."
+  word-already-exists: "&cWord is already in the list."
+  specify-word: "&cSpecify the word to add."
+  word-removed: "&aRemoved %word% from reactions."
+  word-not-found: "&c%word% is not in the list."
+  reaction-words: "&aReaction words: "
+  config-reloaded: "&aReloaded config"
+  unknown-command: "&cUnknown command. Usage: /reaction <start|stop|add|remove|list|reload>"
+
+  automatic:
+    automaticReactionsInterval: 3
+    automaticReactionsEnabled: true
+
+
+
