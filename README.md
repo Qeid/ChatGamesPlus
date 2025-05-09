@@ -7,33 +7,53 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-
-    <li><a href="#contact">Contact</a></li>
+    <li>
+      <a href="features">Features</a>
+    </li>
+    <li>
+      <a href="roadmap">Roadmap</a>
+    </li>
+    <li><a href="contact">Contact</a></li>
   </ol>
 </details>
 
-## Chat Games Lite
+<div align="center">
+  <img height="250" src="https://utfs.io/f/IN4OjmY4wMHBDEiNhxZ1F5rQpvRLyJBIiVuNdO2TEU06kHMo"  />
+</div>
 
-A lite Chat Games / Reactions plugin for Minecraft with configurable message, rewards etc.
-Known to work on 1.20.4 (untested on newer versions)
+## 💬 Chat Games Lite
+A Lite Chat Games / Reactions plugin for Minecraft for adding chat based games into your server to increase user engagement. Includes lots of configuration and very simple to use.
 
-### Built With
+__Known to work on 1.20.4__ (⚠ untested on newer versions)
 
-* Java
 
-## Roadmap
+
+### 🐍 Built With
+
+<div align="left">
+  
+  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+  
+</div>
+
+### 🎁 Features
+- Configurable rewards for winning a chat game
+- Configurability for time limit, word list, etc.
+- Current games include: Scramble, Math, & Fastest.
+
+## ⭐ Roadmap
 
 - [ ] Support for newer Minecraft versions
 - [ ] More configurability
 - [ ] Add more chat games
     - [ ] Trivia Questions
     - [ ] Fill In The Blank
+    - [ ] Custom Games
 
-## Contact
+## 🕴 Contact
 
 [@qeid](https://discord.gg/users/qeid) - qeid.devs@gmail.com
 
-[https://github.com/Qeid/ChatGamesPlus](https://github.com/Qeid/ChatGamesPlus/tree/main)
+[https://github.com/qeid/ChatGamesPlus](https://github.com/qeid/ChatGamesPlus/tree/main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
