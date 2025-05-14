@@ -1,4 +1,4 @@
-package gg.minecrush.reactions.command;
+package discord.qeid.chatgamesplus.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

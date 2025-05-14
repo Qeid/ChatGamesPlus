@@ -1,4 +1,4 @@
-package gg.minecrush.reactions.util;
+package discord.qeid.chatgamesplus.util;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;

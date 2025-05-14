@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group = 'gg.minecrush'
-version = '1.0-SNAPSHOT'
+group = 'discord.qeid'
+version = '1.0.2'
 
 repositories {
     mavenCentral()

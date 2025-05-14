@@ -1,4 +1,4 @@
-package gg.minecrush.reactions;
+package discord.qeid.chatgamesplus;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

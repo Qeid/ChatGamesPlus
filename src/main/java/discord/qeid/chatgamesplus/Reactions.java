@@ -1,7 +1,7 @@
-package gg.minecrush.reactions;
+package discord.qeid.chatgamesplus;
 
-import gg.minecrush.reactions.command.ReactionCommand;
-import gg.minecrush.reactions.command.ReactionTabComplete;
+import discord.qeid.chatgamesplus.command.ReactionCommand;
+import discord.qeid.chatgamesplus.command.ReactionTabComplete;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
@@ -14,9 +14,15 @@ public class Reactions extends JavaPlugin {
     private static final Logger LOGGER = Logger.getLogger(Reactions.class.getName());
     private int automaticReactionsInterval;
 
+    final String RESET = "\u001B[0m";
+    final String YELLOW = "\u001B[33m";
+    final String GREEN = "\u001B[32m";
+    final String CYAN = "\u001B[36m";
+    final String BOLD = "\u001B[1m";
+
     @Override
     public void onEnable() {
-        LOGGER.info("Reactions plugin is enabling...");
+        System.out.println(YELLOW + "Attempting to load ChatGamesPlus (v" + getDescription().getVersion() + ")");
         try {
             this.saveDefaultConfig();
             reactionManager = new ReactionManager(this);
@@ -28,9 +34,11 @@ public class Reactions extends JavaPlugin {
                 scheduleAutomaticReactions();
             }
             reactionManager.reset_Reaction();
-            LOGGER.info("Reactions plugin enabled successfully!");
+            String banner = GREEN + BOLD + "ChatGamesPlus (v" + getDescription().getVersion() + ") loaded successfully." + RESET;
+
+            System.out.println(banner);
         } catch (Exception e) {
-            LOGGER.severe("Failed to enable Reactions plugin: " + e.getMessage());
+            LOGGER.severe("Failed to enable ChatGamesPlus plugin: " + e.getMessage());
             e.printStackTrace();
         }
     }
@@ -51,7 +59,7 @@ public class Reactions extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        LOGGER.info("Reactions plugin is disabling...");
+        LOGGER.info(CYAN + "ChatGamesPlus is now disabling. Good bye!");
     }
 
     public Reactions() {

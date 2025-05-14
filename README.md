@@ -24,7 +24,7 @@
 ## 💬 Chat Games Lite
 A Lite Chat Games / Reactions plugin for Minecraft for adding chat based games into your server to increase user engagement. Includes lots of configuration and very simple to use.
 
-__Known to work on 1.20.4__ (⚠ untested on newer versions)
+__Known to work on 1.20 and higher__ (⚠ untested on older versions)
 
 
 

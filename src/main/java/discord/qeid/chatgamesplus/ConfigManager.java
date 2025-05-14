@@ -1,4 +1,4 @@
-package gg.minecrush.reactions;
+package discord.qeid.chatgamesplus;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;

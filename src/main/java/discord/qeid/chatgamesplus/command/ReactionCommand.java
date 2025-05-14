@@ -1,14 +1,12 @@
-package gg.minecrush.reactions.command;
+package discord.qeid.chatgamesplus.command;
 
-import gg.minecrush.reactions.ReactionManager;
-import gg.minecrush.reactions.Reactions;
+import discord.qeid.chatgamesplus.ReactionManager;
+import discord.qeid.chatgamesplus.Reactions;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-import gg.minecrush.reactions.util.color;
-import gg.minecrush.reactions.Reactions;
+import discord.qeid.chatgamesplus.util.color;
 
 import java.util.Arrays;
 import java.util.List;
@@ -22,8 +20,6 @@ public class ReactionCommand implements CommandExecutor {
         this.reactionManager = reactionManager;
         this.plugin = plugin;
     }
-
-    //
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

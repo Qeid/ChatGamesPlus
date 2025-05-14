@@ -1,8 +1,12 @@
-name: Reactions
+name: ChatGamesPlus
 version: '${version}'
-main: gg.minecrush.reactions.Reactions
+main: discord.qeid.chatgamesplus.Reactions
+author: qeid
+website: 'https://github.com/qeid/ChatGamesPlus'
+description: 'A Lite Chat Games / Reactions plugin for Minecraft for adding chat based games into your server to increase user engagement. Includes lots of configuration and very simple to use.'
 api-version: '1.20'
 
 commands:
   reaction:
     description: Main command for Reactions plugin
+    aliases: chatgame

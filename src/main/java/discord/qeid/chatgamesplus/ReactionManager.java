@@ -1,10 +1,10 @@
-package gg.minecrush.reactions;
+package discord.qeid.chatgamesplus;
 
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-import gg.minecrush.reactions.util.color;
+import discord.qeid.chatgamesplus.util.color;
 
 import java.util.Collections;
 import java.util.List;
